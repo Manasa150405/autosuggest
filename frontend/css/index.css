@@ -1,35 +1,51 @@
-h1{
-    color :navy;
+h1 {
+    color : red;
 }
-#heading2{
-    color : orange
+#heading-2{
+    color:blue;
 }
-.heading{
-    color:maroon
+.head1{
+    color: aqua;
 }
-.para{
-    border : 2px;
-    border-color:blueviolet;
+.Para{
+    border: 2px;
+    border-color: black;
     border-style: solid;
+    padding: 20px;
+    text-align: center;
 }
-.navbar {
-    border : 3px;
-    border-color : green;
-    border-style:solid;
-    padding : 15px;
-    text-align:center;
-    background-color:blueviolet;
+.navbar{
+    border:3px;
+    border-style: solid;
+    border-color: black;
+    padding: 15px;
+    background-color: chartreuse;
+    text-align: center;
 }
+
 .navbar a{
-    color:aqua;
-    padding : 15px;
+    color:black;
+    padding: 15px;
     text-decoration: none;
 }
 .navbar a:hover{
-    background-color :hotpink;
-
-    
+    background-color: rgb(255, 238, 0);
 }
 body{
-    margin:0px;
+    margin: 0%;
+}
+.card{
+    border: 2px solid black;
+    width: 300px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 40px ;
+
+}
+.card img{
+    width: 100%;
+    height:400%
+}
+.card button{
+    margin-bottom: 20px;
 }
